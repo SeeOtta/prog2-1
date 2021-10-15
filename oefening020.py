@@ -1,0 +1,6 @@
+gebruikersnaam = input("kies een gebruikersnaam")
+paswoord = input("kies een paswoord")
+bestand = open("Inloggegevens.txt", "wt")
+bestand.write(f"{gebruikersnaam}\n")
+bestand.write(f"{paswoord}\n")
+bestand.close()
